@@ -183,3 +183,9 @@ header a:hover{
     margin-bottom: 20px;
     width:80%;
 }
+
+@media only screen and (max-width :600px){
+    header{
+        height:200px;
+    }
+}
