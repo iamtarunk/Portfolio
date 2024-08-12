@@ -187,5 +187,6 @@ header a:hover{
 @media only screen and (max-width :600px){
     header{
         height:200px;
+        background-color:red;
     }
 }
