@@ -34,7 +34,8 @@ header{
     justify-content:flex-end;
     align-items: center;
     position: sticky;
-    top:0; 
+    top:0;
+    z-index: 1;
 }
 header a{
     display: flex;
@@ -50,6 +51,8 @@ header a:hover{
 .github,.e-mail,.mobile{
     margin:0px 10px;
 }
+
+
 .section1{
     display: flex;
     justify-content:center;
@@ -184,9 +187,15 @@ header a:hover{
     width:80%;
 }
 
-@media only screen and (max-width :600px){
+@media only screen and (max-width :400px){
+    /* .wrapper{
+        width:600px;
+    } */
     header{
-        height:200px;
-        background-color:red;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0;
+        font-size: 14px;
+        flex-direction: column;
     }
 }
